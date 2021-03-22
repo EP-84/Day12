@@ -16,9 +16,9 @@ function myNes() {
 
     };
 
-myStorage.car["inside"]["glove box"]
+    myStorage.car.inside["glove box"]
 
-var gloveBoxContents = myStorage.car["inside"]["glove box"]
+var gloveBoxContents = myStorage.car.inside["glove box"]
 return gloveBoxContents;
 
 }
