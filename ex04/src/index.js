@@ -1,10 +1,17 @@
-function sumFibonacci(n) {
- 
+function sumFibonacci(num) {
+if (num <= 0) {
+return 0;
+}
+if (num === 1) {
+return 1;
+}
+
+
 var broj = 0;
 var sljedecibroj = 1;
 var res = 0;
    
-    while (broj  <= n) {
+    while (broj  <= num) {
 
       if (broj  % 2 !== 0) {
         res = res + broj;
